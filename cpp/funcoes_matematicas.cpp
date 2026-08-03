@@ -19,7 +19,6 @@ int main() {
 
         if (opcao == 1) {
             double base, expoente;
-            cout << " " << endl;
             cout << "Digite a base: ";
             cin >> base;
             cout << "Digite o expoente: ";
@@ -29,7 +28,6 @@ int main() {
             cout << " " << endl;
         }else if (opcao == 2) {
             double numero;
-            cout << " " << endl;
             cout << "Digite um numero: ";
             cin >> numero;
 
@@ -41,7 +39,6 @@ int main() {
             cout << " " << endl;
         }else if (opcao == 3) {
             double angulo;
-            cout << " " << endl;
             cout << "Digite o angulo (radianos): ";
             cin >> angulo;
 
@@ -51,7 +48,6 @@ int main() {
             cout << " " << endl;
         }else if (opcao == 4) {
             double numero;
-            cout << " " << endl;
             cout << "Digite um numero positivo: ";
             cin >> numero;
 
@@ -62,7 +58,6 @@ int main() {
             }
             cout << " " << endl;
         }else if (opcao != 0) {
-            cout << " " << endl;
             cout << "Opcao invalida!" << endl << endl;
             cout << " " << endl;
         }
